@@ -1,6 +1,6 @@
 # typescript-component-template
 
-A quick TypeScript component template that includes linting, testing and a pipeline using GitHub actions.
+A quick [TypeScript](https://www.typescriptlang.org/) component template that includes linting, testing and a pipeline using GitHub actions.
 
 [![Build](https://github.com/michael-parkins/typescript-component-template/actions/workflows/build.yml/badge.svg)](https://github.com/michael-parkins/typescript-component-template/actions/workflows/build.yml)
 
@@ -8,8 +8,9 @@ A quick TypeScript component template that includes linting, testing and a pipel
 - Hello World source files
 - Unit test using [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/)
 - [ESLint](https://eslint.org/)
+- GitHub Actions pipeline that lints, builds and tests when changes are pushed into `main`
 
-## The Setup Up
+## The Setup
 
 Install all the things.
 ```
