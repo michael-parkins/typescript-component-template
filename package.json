@@ -1,5 +1,5 @@
 {
-  "name": "typescript-module-template",
+  "name": "typescript-component-template",
   "version": "1.0.0",
   "description": "Template project for TypeScript modules.",
   "main": "dist/index.js",
