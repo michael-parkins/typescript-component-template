@@ -1,1 +1,1 @@
-export { Speaker } from './hello-world';
+export { YourClass, yourFunction } from './hello-world';

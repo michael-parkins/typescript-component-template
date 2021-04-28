@@ -1,11 +1,17 @@
 import { expect } from 'chai';
 
-import { Speaker } from './hello-world';
+import { YourClass, yourFunction } from './hello-world';
 
-describe('Speaker tests', () => {
+describe('YourClass tests', () => {
   it('should say hello', () => {
-    const result = new Speaker().sayHello();
+    const result = new YourClass().sayHello();
     expect(result).to.equal('hello');
   })
 })
 
+describe('yourFunction tests', () => {
+  it('should say goodbye', () => {
+    const result = yourFunction();
+    expect(result).to.equal('goodbye');
+  })
+})
