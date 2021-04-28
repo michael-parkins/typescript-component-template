@@ -14,9 +14,16 @@
     "lint": "eslint ./src/**",
     "test": "mocha -r ts-node/register ./src/**/*.spec.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michael-parkins/typescript-component-template.git"
+  },
+  "keywords": [
+    "typescript",
+    "template"
+  ],
+  "author": "Michael Parkins",
+  "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.2.17",
     "@types/mocha": "^8.2.2",
