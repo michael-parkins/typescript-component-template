@@ -11,7 +11,7 @@
     "build": "tsc",
     "build:ci": "npm run clean && npm run build && npm run test",
     "clean": "rimraf ./dist",
-    "lint": "eslint ./src/**",
+    "lint": "eslint ./src/**/*.ts",
     "test": "mocha -r ts-node/register ./src/**/*.spec.ts"
   },
   "repository": {

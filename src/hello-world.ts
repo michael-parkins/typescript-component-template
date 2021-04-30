@@ -5,5 +5,5 @@ export class YourClass {
 }
 
 export function yourFunction(): string {
-  return 'goodbye'
+  return 'goodbye';
 }
