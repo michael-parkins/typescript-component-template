@@ -1,6 +1,6 @@
 {
   "name": "typescript-component-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Template project for TypeScript modules.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
