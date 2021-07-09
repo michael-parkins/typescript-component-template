@@ -1,0 +1,29 @@
+name: Bug Report
+description: Report a bug in this TypeScript template
+
+body:
+  - type: dropdown
+    id: affected-area
+    attributes:
+      label: Which area is the source of the bug?
+      options:
+        - build
+        - testing
+        - linting
+        - packages
+        - configuration
+        - don't know/not listed
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+    validations:
+      required: true
+
+  - type: textarea
+    id: other
+    attributes:
+      label: Anything else?
