@@ -5,7 +5,7 @@ body:
   - type: dropdown
     id: affected-area
     attributes:
-      label: Which area is the source of the bug?
+      label: Which of these features are related to this request?
       options:
         - example code
         - build
