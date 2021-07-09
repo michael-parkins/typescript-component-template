@@ -13,6 +13,8 @@ body:
         - linting
         - packages
         - configuration
+        - pipeline
+        - documentation
         - don't know/not listed
     validations:
       required: true

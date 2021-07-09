@@ -1,0 +1,39 @@
+name: 'Feature Request'
+description: Suggest a feature for this TypeScript template
+
+body:
+  - type: dropdown
+    id: affected-area
+    attributes:
+      label: Which area is the source of the bug?
+      options:
+        - example code
+        - build
+        - testing
+        - linting
+        - pipeline
+        - other
+      multiple: true
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: What do you propose?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives-considered
+    attributes:
+      label: Have you considered any alternatives?
+    validations:
+      required: true
