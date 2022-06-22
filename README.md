@@ -4,13 +4,13 @@ A quick [TypeScript](https://www.typescriptlang.org/) component template that in
 
 [![Build](https://github.com/michael-parkins/typescript-component-template/actions/workflows/build.yml/badge.svg)](https://github.com/michael-parkins/typescript-component-template/actions/workflows/build.yml)
 
-## What's Included
+## What's included
 - Hello World source files
 - Unit test using [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/)
 - [ESLint](https://eslint.org/)
 - GitHub Actions pipeline that lints, builds and tests when changes are pushed into `main`
 
-## The Setup
+## The setup
 
 Install all the things.
 ```
